@@ -1,0 +1,6 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Uppy – Anmeldung</title><style>body{font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}a{color:#0a58ca}@media(prefers-color-scheme:dark){body{background:#111;color:#ddd}a{color:#6ea8fe}}</style></head><body>
+<h1>Fast fertig</h1>
+<p>Kopiere die komplette Adresse oben aus der Adresszeile und füge sie im Terminal bei Uppy ein.</p>
+<p><input id="u" readonly style="width:100%;padding:8px;font-size:14px"> <button onclick="navigator.clipboard.writeText(location.href);this.textContent='Kopiert ✓'">Adresse kopieren</button></p>
+<script>document.getElementById('u').value=location.href</script>
+</body></html>
